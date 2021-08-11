@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LivroLibrary.Models
 {
-    abstract class LivroBaseModel
+    public abstract class LivroBaseModel
     {
 
         public int Id { get; set; }

@@ -9,7 +9,8 @@ namespace LivroLibrary.Context
 {
     class BaseContext: DbContext
     {
-
+        public DbSet<Biblioteca> Biblioteca { get; set; }
+        public DbSet<Livraria> Livraria { get; set; }
         public BaseContext(): base("DbConectionLibrary")
         {
 
